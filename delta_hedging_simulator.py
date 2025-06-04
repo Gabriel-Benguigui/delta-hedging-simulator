@@ -22,7 +22,7 @@ def black_scholes_delta(S, K, T, r, sigma):
     d1 = (np.log(S/K) + (r + 0.5*sigma**2)*T) / (sigma*np.sqrt(T))
     return norm.cdf(d1)
 
-# Génération du chemin du sous-jacent
+# Génération du chemin du sous-jacent en simulant un mouvement brownien géométrique 
 S = np.zeros(N+1)
 S[0] = S0
 for t in range(1, N+1):
