@@ -14,4 +14,7 @@ Il calcule le **PnL final** de la stratégie de couverture dynamique et affiche 
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gabriel-Benguigui/delta-hedging-simulator/blob/main/delta_hedging_simulator.ipynb)
 
-##  Dépendances
+## Auteur
+
+Gabriel Benguigui  
+Master Financial Markets & Risk Evaluation — TSM
